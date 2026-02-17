@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="AL logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#35f2ff" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#0d1117" />
+  <rect x="10" y="10" width="100" height="100" rx="20" fill="url(#g)" opacity="0.9" />
+  <text x="60" y="73" font-size="48" font-family="Orbitron, sans-serif" font-weight="700" text-anchor="middle" fill="#0d1117">AL</text>
+</svg>
