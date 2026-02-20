@@ -4,22 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aniket Singh Lodhi | Data Analytics & Blockchain Developer Portfolio</title>
+    <title>Aniket Singh Lodhi | Full-Stack & Blockchain Developer</title>
     <meta
       name="description"
-      content="Aniket Singh Lodhi - Blockchain Developer, Web3 & Cyber security  Enthusiast, and Data Analyst. Building decentralized systems, smart contracts, and data-driven solutions."
+      content="Aniket Singh Lodhi — Full-Stack Developer, Blockchain Engineer, and AI Systems Builder. IIT Patna CS. Building secure, scalable, decentralized systems that solve real-world problems."
     />
     <meta
       name="keywords"
-      content="Aniket Singh Lodhi, Blockchain Developer, Web3, DApps, Solidity, Data Analyst, Portfolio"
+      content="Aniket Singh Lodhi, Blockchain Developer, Full-Stack Engineer, Web3, Solidity, AI, IIT Patna, React, Node.js, Portfolio"
     />
     <meta name="author" content="Aniket Singh Lodhi" />
-    <meta name="theme-color" content="#0D1117" />
+    <meta name="theme-color" content="#0a0e17" />
 
-    <meta property="og:title" content="Aniket Singh Lodhi | Blockchain Developer" />
+    <meta property="og:title" content="Aniket Singh Lodhi | Full-Stack & Blockchain Developer" />
     <meta
       property="og:description"
-      content="Futuristic portfolio featuring Web3, blockchain, and data analytics projects."
+      content="Engineering secure, decentralized systems at the intersection of blockchain, AI, and full-stack development. IIT Patna CS."
     />
     <meta property="og:type" content="website" />
 
@@ -27,7 +27,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
@@ -35,11 +35,20 @@
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
+    <!-- Ambient background particles -->
+    <div class="bg-particles" aria-hidden="true">
+      <div class="particle particle-1"></div>
+      <div class="particle particle-2"></div>
+      <div class="particle particle-3"></div>
+      <div class="particle particle-4"></div>
+      <div class="particle particle-5"></div>
+    </div>
+
     <header class="site-header">
       <nav class="nav" aria-label="Primary">
         <a class="logo" href="#hero" aria-label="Go to top">
           <span class="logo-mark">AL</span>
-          <span class="logo-text">Aniket Singh Lodhi</span>
+          <span class="logo-text">aniket.dev</span>
         </a>
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
           <span class="sr-only">Toggle navigation</span>
@@ -48,29 +57,46 @@
         </button>
         <div id="nav-links" class="nav-links">
           <a href="#about">About</a>
-          <a href="#skills">Skills</a>
+          <a href="#skills">Stack</a>
           <a href="#projects">Projects</a>
-          <a href="#education">Education</a>
+          <a href="#journey">Journey</a>
           <a href="#contact">Contact</a>
+          <a class="nav-cta" href="mailto:aniketlodhi@icloud.com">Hire Me</a>
         </div>
       </nav>
     </header>
 
     <main id="main">
+      <!-- ==================== HERO ==================== -->
       <section id="hero" class="section hero">
         <div class="hero-content">
-          <p class="eyebrow">Blockchain Developer | Web3 Enthusiast | Data Analyst | Cyber Security Enthusiast</p>
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Available for opportunities</span>
+          </div>
           <h1>
-            Hi, I am <span class="accent">Aniket Singh Lodhi</span>.
-            <span class="hero-title">Building the decentralized future.</span>
+            I build
+            <span class="typing-wrapper">
+              <span class="typing-text" id="typing-text"></span>
+              <span class="typing-cursor" aria-hidden="true">|</span>
+            </span>
           </h1>
+          <p class="hero-tagline">
+            Full-Stack Developer. Blockchain Engineer. Systems Thinker.
+          </p>
           <p class="hero-subtitle">
-            BS in Computer Science and Data Analytics at IIT Patna (4th Semester). I craft smart
-            contracts, DApps, and data-driven systems with a futuristic, security-first mindset.
+            CS &amp; Data Analytics at IIT Patna. I engineer decentralized systems,
+            build scalable web applications, and design AI-driven solutions with a
+            security-first architecture mindset.
           </p>
           <div class="hero-actions">
-            <a class="btn primary" href="#contact">Let us connect</a>
-            <a class="btn ghost" href="#projects">View projects</a>
+            <a class="btn primary" href="#projects">
+              <span>View My Work</span>
+              <svg class="btn-arrow" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                <path fill="currentColor" d="M5 12h14m-7-7 7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a class="btn ghost" href="#contact">Let's Connect</a>
           </div>
           <div class="hero-social" aria-label="Social links">
             <a
@@ -123,51 +149,10 @@
                 />
               </svg>
             </a>
-            <a
-              class="social-link is-secondary"
-              href="https://instagram.com/an1iiket_singh"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Instagram"
-            >
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path
-                  fill="currentColor"
-                  d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zm5.25-3.75a1 1 0 1 1-1-1 1 1 0 0 1 1 1z"
-                />
-              </svg>
-            </a>
-            <a
-              class="social-link is-secondary"
-              href="https://discord.com/users/aniketsinghlodhi"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Discord"
-            >
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-                <path
-                  fill="currentColor"
-                  d="M19.5 6.4a15.6 15.6 0 0 0-4-1.3l-.2.4a14.2 14.2 0 0 1 3.7 1.1 12.1 12.1 0 0 0-6-1.5 12.1 12.1 0 0 0-6 1.5 14.2 14.2 0 0 1 3.7-1.1l-.2-.4a15.6 15.6 0 0 0-4 1.3C2.9 10.4 2.6 14.3 3.1 18a15.1 15.1 0 0 0 4.6 2.4l.6-.8a10.7 10.7 0 0 1-2.9-1.4l.7-.5a11.3 11.3 0 0 0 5.9 1.7 11.3 11.3 0 0 0 5.9-1.7l.7.5a10.7 10.7 0 0 1-2.9 1.4l.6.8a15.1 15.1 0 0 0 4.6-2.4c.6-3.7.3-7.6-1.5-11.6zM9.3 14.7c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2zm5.4 0c-1 0-1.8-.9-1.8-2s.8-2 1.8-2 1.8.9 1.8 2-.8 2-1.8 2z"
-                />
-              </svg>
-            </a>
-          </div>
-          <div class="hero-stats">
-            <div>
-              <span class="stat-value">04</span>
-              <span class="stat-label">Semester</span>
-            </div>
-            <div>
-              <span class="stat-value">India</span>
-              <span class="stat-label">Location</span>
-            </div>
-            <div>
-              <span class="stat-value">Web3</span>
-              <span class="stat-label">Focus</span>
-            </div>
           </div>
         </div>
         <div class="hero-visual">
+          <div class="shiny-effect" aria-hidden="true"></div>
           <div class="orb orb-large" aria-hidden="true"></div>
           <div class="orb orb-medium" aria-hidden="true"></div>
           <div class="orb orb-small" aria-hidden="true"></div>
@@ -181,124 +166,271 @@
               decoding="async"
               fetchpriority="high"
             />
-            <figcaption>Blockchain & Web3 Developer</figcaption>
+            <figcaption class="profile-name-tag">
+              <span class="profile-name">Aniket Singh Lodhi</span>
+              <span class="profile-title" id="profile-title-text"></span>
+            </figcaption>
           </figure>
           <div class="grid-overlay" aria-hidden="true"></div>
         </div>
       </section>
 
+      <!-- ==================== ABOUT ==================== -->
       <section id="about" class="section reveal">
         <div class="section-header">
-          <h2>About</h2>
-          <p>Curious technologist exploring blockchain, AI, and cybersecurity.</p>
+          <span class="section-tag">// about</span>
+          <h2>Architecting the Decentralized Stack</h2>
         </div>
-        <div class="about-grid">
-          <div class="glass-card">
-            <h3>Core Identity</h3>
-            <ul>
-              <li>Blockchain & Web3 Developer</li>
-              <li>Data Analytics Enthusiast</li>
-              <li>AI & Cybersecurity Explorer</li>
-              <li>Builder of decentralized systems</li>
-              <li>Always learning, always shipping</li>
-            </ul>
+        <div class="about-layout">
+          <div class="about-intro glass-card">
+            <p class="about-lead">
+              I'm Aniket — a full-stack developer and blockchain engineer studying
+              Computer Science &amp; Data Analytics at <strong>IIT Patna</strong>.
+              I operate at the intersection of decentralized systems,
+              intelligent automation, and scalable web architecture.
+            </p>
+            <p>
+              My work focuses on building technology that is secure by design,
+              transparent by default, and engineered for real-world impact. From
+              smart contracts on Ethereum to full-stack applications with React
+              and Node.js, I approach every project with systems-level thinking
+              and a bias toward shipping.
+            </p>
           </div>
-          <div class="glass-card">
-            <h3>Current Work</h3>
-            <ul>
-              <li>Blockchain-based voting system (capstone)</li>
-              <li>Smart contracts using Solidity</li>
-              <li>Web3 and DApp development</li>
-              <li>Data analytics and visualization</li>
-            </ul>
+          <div class="about-highlights">
+            <div class="highlight-card glass-card">
+              <span class="highlight-icon">&#x2B21;</span>
+              <h3>Blockchain Engineering</h3>
+              <p>Smart contracts, DApps, and decentralized architectures built on Ethereum and EVM-compatible chains.</p>
+            </div>
+            <div class="highlight-card glass-card">
+              <span class="highlight-icon">&#x2736;</span>
+              <h3>Full-Stack Development</h3>
+              <p>End-to-end web applications — React frontends, Node.js backends, REST APIs, and database systems.</p>
+            </div>
+            <div class="highlight-card glass-card">
+              <span class="highlight-icon">&#x25C8;</span>
+              <h3>Data &amp; AI Systems</h3>
+              <p>Data pipelines, analytics workflows, and intelligent system design using Python and modern tooling.</p>
+            </div>
+            <div class="highlight-card glass-card">
+              <span class="highlight-icon">&#x2B22;</span>
+              <h3>Security-First Architecture</h3>
+              <p>Systems built with threat modeling, secure authentication, and tamper-proof data integrity in mind.</p>
+            </div>
           </div>
+        </div>
+
+        <!-- GitHub-style highlight bullets -->
+        <div class="github-highlights glass-card">
+          <h3>Quick Facts</h3>
+          <ul class="highlights-list">
+            <li><span class="hl-bullet">&#x25B8;</span> Currently building a blockchain-based voting system with Solidity + Web3.js</li>
+            <li><span class="hl-bullet">&#x25B8;</span> Studying BS in Computer Science &amp; Data Analytics at IIT Patna</li>
+            <li><span class="hl-bullet">&#x25B8;</span> Focused on decentralized systems, full-stack engineering, and AI applications</li>
+            <li><span class="hl-bullet">&#x25B8;</span> Based in India — open to remote and global opportunities</li>
+          </ul>
         </div>
       </section>
 
+      <!-- ==================== SKILLS ==================== -->
       <section id="skills" class="section reveal">
         <div class="section-header">
-          <h2>Skills & Tech Stack</h2>
-          <p>Modern tools for decentralized and data-driven engineering.</p>
+          <span class="section-tag">// tech_stack</span>
+          <h2>Tools I Build With</h2>
+          <p>Production-grade technologies for modern engineering challenges.</p>
         </div>
         <div class="skills-grid">
-          <article class="skill-card">
-            <div class="skill-icon">⛓️</div>
-            <h3>Blockchain</h3>
-            <p>Solidity, Web3.js, Ethereum, Smart Contracts, DApps</p>
+          <article class="skill-card" data-stack="blockchain">
+            <div class="skill-header">
+              <span class="skill-icon">&#x26D3;</span>
+              <h3>Blockchain</h3>
+            </div>
+            <p class="skill-desc">Solidity &middot; Ethereum &middot; Web3.js &middot; Smart Contracts &middot; DApps</p>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 85%"></div></div>
           </article>
-          <article class="skill-card">
-            <div class="skill-icon">💻</div>
-            <h3>Programming</h3>
-            <p>Python, JavaScript, C, Node.js</p>
+          <article class="skill-card" data-stack="frontend">
+            <div class="skill-header">
+              <span class="skill-icon">&#x2B21;</span>
+              <h3>Frontend</h3>
+            </div>
+            <p class="skill-desc">React.js &middot; HTML5 &middot; CSS3 &middot; JavaScript ES6+</p>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 80%"></div></div>
           </article>
-          <article class="skill-card">
-            <div class="skill-icon">🌐</div>
-            <h3>Web</h3>
-            <p>HTML, CSS, JavaScript</p>
+          <article class="skill-card" data-stack="backend">
+            <div class="skill-header">
+              <span class="skill-icon">&#x2699;</span>
+              <h3>Backend</h3>
+            </div>
+            <p class="skill-desc">Node.js &middot; Express.js &middot; REST APIs &middot; Authentication</p>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 78%"></div></div>
           </article>
-          <article class="skill-card">
-            <div class="skill-icon">🗄️</div>
-            <h3>Databases</h3>
-            <p>MySQL, PostgreSQL</p>
+          <article class="skill-card" data-stack="languages">
+            <div class="skill-header">
+              <span class="skill-icon">&#x276E;/&#x276F;</span>
+              <h3>Languages</h3>
+            </div>
+            <p class="skill-desc">Python &middot; JavaScript &middot; SQL &middot; Solidity</p>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 88%"></div></div>
           </article>
-          <article class="skill-card">
-            <div class="skill-icon">📊</div>
-            <h3>Data</h3>
-            <p>Pandas, NumPy, ML tools, visualization</p>
+          <article class="skill-card" data-stack="data">
+            <div class="skill-header">
+              <span class="skill-icon">&#x2587;</span>
+              <h3>Data &amp; AI</h3>
+            </div>
+            <p class="skill-desc">Pandas &middot; NumPy &middot; Data Visualization &middot; Analysis Pipelines</p>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 75%"></div></div>
           </article>
-          <article class="skill-card">
-            <div class="skill-icon">🛡️</div>
-            <h3>Cybersecurity</h3>
-            <p>Metasploit, Wireshark, Burp Suite, Nmap</p>
+          <article class="skill-card" data-stack="tools">
+            <div class="skill-header">
+              <span class="skill-icon">&#x2692;</span>
+              <h3>DevOps &amp; Tools</h3>
+            </div>
+            <p class="skill-desc">Git &middot; GitHub &middot; Linux &middot; MySQL &middot; MongoDB</p>
+            <div class="skill-bar"><div class="skill-fill" style="--fill: 82%"></div></div>
           </article>
         </div>
       </section>
 
+      <!-- ==================== PROJECTS ==================== -->
       <section id="projects" class="section reveal">
         <div class="section-header">
-          <h2>Featured Project</h2>
-          <p>Impact-focused decentralized solution with security and transparency.</p>
+          <span class="section-tag">// projects</span>
+          <h2>What I've Built</h2>
+          <p>Real systems solving real problems — from smart contracts to full-stack platforms.</p>
         </div>
-        <div class="project-card glass-card">
-          <div>
-            <h3>Blockchain-Based Voting System</h3>
-            <p>
-              Capstone project enabling tamper-proof elections with Ethereum smart contracts.
-              Includes voter authentication, transparent tallying, and audit-ready logs.
-            </p>
+
+        <!-- Featured Project -->
+        <div class="project-featured glass-card">
+          <div class="project-featured-badge">Featured Project</div>
+          <div class="project-featured-content">
+            <div class="project-info">
+              <h3>Blockchain-Based Online Voting System</h3>
+              <p>
+                A decentralized voting platform engineered for tamper-proof elections.
+                Built with Ethereum smart contracts for immutable vote storage,
+                blockchain-based voter authentication, transparent tallying mechanisms,
+                and a full-stack web interface that bridges Web3 with intuitive UX.
+              </p>
+              <ul class="project-tags">
+                <li>Solidity</li>
+                <li>Web3.js</li>
+                <li>Ethereum</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Security</li>
+              </ul>
+            </div>
+            <div class="project-metrics">
+              <div class="metric">
+                <span class="stat-value">99.9%</span>
+                <span class="stat-label">Integrity Target</span>
+              </div>
+              <div class="metric">
+                <span class="stat-value">EVM</span>
+                <span class="stat-label">Chain Compatible</span>
+              </div>
+              <div class="metric">
+                <span class="stat-value">E2E</span>
+                <span class="stat-label">Full-Stack DApp</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other Projects -->
+        <div class="projects-grid">
+          <article class="project-card glass-card">
+            <div class="project-card-header">
+              <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+                <path fill="var(--cyan)" d="M3 3h18v18H3V3zm2 2v14h14V5H5zm2 2h10v2H7V7zm0 4h10v2H7v-2zm0 4h7v2H7v-2z"/>
+              </svg>
+              <div class="project-card-links">
+                <a href="https://github.com/aniketsinghlodhi" target="_blank" rel="noreferrer" aria-label="View source">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.24c0 4.5 2.87 8.31 6.84 9.66.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.38-3.37-1.38-.45-1.17-1.1-1.48-1.1-1.48-.9-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.13-4.56-5.03 0-1.11.39-2.01 1.03-2.72-.1-.26-.45-1.32.1-2.75 0 0 .84-.27 2.75 1.03.8-.23 1.65-.34 2.5-.34.85 0 1.7.11 2.5.34 1.9-1.3 2.74-1.03 2.74-1.03.56 1.43.2 2.49.1 2.75.64.71 1.03 1.61 1.03 2.72 0 3.91-2.34 4.77-4.57 5.02.36.32.69.95.69 1.92 0 1.39-.01 2.51-.01 2.85 0 .27.18.59.69.49 3.97-1.35 6.83-5.16 6.83-9.66C22 6.58 17.52 2 12 2z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3>Full-Stack Web Applications</h3>
+            <p>Responsive, API-driven web platforms built with React and Node.js. Modern UI/UX with component-based architecture and RESTful backends.</p>
             <ul class="project-tags">
-              <li>Solidity</li>
-              <li>Web3.js</li>
-              <li>DApp</li>
-              <li>Security</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>REST API</li>
             </ul>
-          </div>
-          <div class="project-metrics">
-            <div>
-              <span class="stat-value">99.9%</span>
-              <span class="stat-label">Integrity target</span>
+          </article>
+          <article class="project-card glass-card">
+            <div class="project-card-header">
+              <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+                <path fill="var(--purple)" d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zm0-10v2h14V7H7z"/>
+              </svg>
+              <div class="project-card-links">
+                <a href="https://github.com/aniketsinghlodhi" target="_blank" rel="noreferrer" aria-label="View source">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.24c0 4.5 2.87 8.31 6.84 9.66.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.38-3.37-1.38-.45-1.17-1.1-1.48-1.1-1.48-.9-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.64-1.38-2.22-.26-4.56-1.13-4.56-5.03 0-1.11.39-2.01 1.03-2.72-.1-.26-.45-1.32.1-2.75 0 0 .84-.27 2.75 1.03.8-.23 1.65-.34 2.5-.34.85 0 1.7.11 2.5.34 1.9-1.3 2.74-1.03 2.74-1.03.56 1.43.2 2.49.1 2.75.64.71 1.03 1.61 1.03 2.72 0 3.91-2.34 4.77-4.57 5.02.36.32.69.95.69 1.92 0 1.39-.01 2.51-.01 2.85 0 .27.18.59.69.49 3.97-1.35 6.83-5.16 6.83-9.66C22 6.58 17.52 2 12 2z"/></svg>
+                </a>
+              </div>
             </div>
-            <div>
-              <span class="stat-value">EVM</span>
-              <span class="stat-label">Chain ready</span>
-            </div>
-            <div>
-              <span class="stat-value">2026</span>
-              <span class="stat-label">Delivery</span>
-            </div>
-          </div>
+            <h3>Data Analysis Pipelines</h3>
+            <p>Python-based data processing workflows for structured datasets. Insight generation, preprocessing, and visualization at scale.</p>
+            <ul class="project-tags">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>NumPy</li>
+              <li>SQL</li>
+            </ul>
+          </article>
         </div>
-        <div class="stats-card glass-card">
-          <h3>GitHub Stats</h3>
-          <p>Live snapshot of public contributions and language usage.</p>
-          <div class="stats-grid">
+
+        <!-- GitHub Activity — Live Stats -->
+        <div class="github-section">
+          <div class="github-section-header">
+            <div>
+              <h3>GitHub Activity</h3>
+              <p class="github-section-sub">Live data from <a class="stats-link" href="https://github.com/aniketsinghlodhi" target="_blank" rel="noreferrer">@aniketsinghlodhi</a></p>
+            </div>
+          </div>
+
+          <!-- Live stats counters -->
+          <div class="github-live-stats" id="github-live-stats">
+            <div class="gh-stat-card glass-card">
+              <span class="gh-stat-number" id="gh-repos">--</span>
+              <span class="gh-stat-label">Public Repos</span>
+            </div>
+            <div class="gh-stat-card glass-card">
+              <span class="gh-stat-number" id="gh-followers">--</span>
+              <span class="gh-stat-label">Followers</span>
+            </div>
+            <div class="gh-stat-card glass-card">
+              <span class="gh-stat-number" id="gh-following">--</span>
+              <span class="gh-stat-label">Following</span>
+            </div>
+            <div class="gh-stat-card glass-card">
+              <span class="gh-stat-number" id="gh-stars">--</span>
+              <span class="gh-stat-label">Total Stars</span>
+            </div>
+          </div>
+
+          <!-- Top Languages -->
+          <div class="gh-languages glass-card" id="gh-languages">
+            <h4>Top Languages</h4>
+            <div class="gh-lang-bars" id="gh-lang-bars"></div>
+          </div>
+
+          <!-- Stats images as fallback / extras -->
+          <div class="stats-images-grid">
             <img
-              src="https://github-readme-stats.vercel.app/api?username=aniketsinghlodhi&show_icons=true&theme=tokyonight&hide_border=true"
+              src="https://github-readme-stats.vercel.app/api?username=aniketsinghlodhi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e17&title_color=00f0ff&icon_color=a855f7&text_color=c9d1d9&ring_color=00f0ff"
               alt="GitHub stats for Aniket Singh Lodhi"
               loading="lazy"
             />
             <img
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketsinghlodhi&layout=compact&theme=tokyonight&hide_border=true"
+              src="https://github-readme-streak-stats.herokuapp.com/?user=aniketsinghlodhi&theme=tokyonight&hide_border=true&background=0a0e17&ring=00f0ff&fire=a855f7&currStreakLabel=00f0ff&sideLabels=c9d1d9&dates=8b949e"
+              alt="GitHub streak stats for Aniket Singh Lodhi"
+              loading="lazy"
+            />
+            <img
+              src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketsinghlodhi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0e17&title_color=00f0ff&text_color=c9d1d9"
               alt="Top languages used by Aniket Singh Lodhi"
               loading="lazy"
             />
@@ -306,36 +438,83 @@
         </div>
       </section>
 
-      <section id="education" class="section reveal">
+      <!-- ==================== JOURNEY ==================== -->
+      <section id="journey" class="section reveal">
         <div class="section-header">
-          <h2>Education</h2>
-          <p>Academic foundation for blockchain systems and analytics.</p>
+          <span class="section-tag">// journey</span>
+          <h2>Where I've Been</h2>
+          <p>Academic rigor meets real-world execution.</p>
         </div>
-        <div class="glass-card timeline">
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div>
-              <h3>Indian Institute of Technology Patna</h3>
-              <p>BS in Computer Science and Data Analytics</p>
-              <span class="timeline-meta">4th Semester | India</span>
+        <div class="journey-timeline">
+          <div class="timeline-item glass-card">
+            <div class="timeline-marker">
+              <span class="timeline-dot"></span>
+              <span class="timeline-line" aria-hidden="true"></span>
+            </div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 — Present</span>
+              <h3>IIT Patna</h3>
+              <p class="timeline-role">BS in Computer Science &amp; Data Analytics</p>
+              <p class="timeline-desc">
+                Deep-diving into algorithms, data structures, AI systems, and
+                blockchain architecture. Building production-grade projects alongside
+                academic coursework. Focus areas: decentralized systems, data analysis,
+                and secure software engineering.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item glass-card">
+            <div class="timeline-marker">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <span class="timeline-date">Ongoing</span>
+              <h3>Independent Engineering</h3>
+              <p class="timeline-role">Blockchain &amp; Full-Stack Projects</p>
+              <p class="timeline-desc">
+                Continuously shipping — from blockchain-based voting systems to
+                full-stack web applications and data analysis pipelines. Every project
+                is a step toward building technology that creates measurable impact.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- ==================== MISSION ==================== -->
+      <section id="mission" class="section reveal">
+        <div class="mission-card">
+          <span class="section-tag">// mission</span>
+          <blockquote class="mission-text">
+            I believe technology should be transparent, accessible, and built to last.
+            My mission is to engineer decentralized, intelligent systems that solve
+            real-world problems at scale — making trust programmable and innovation
+            inevitable.
+          </blockquote>
+          <span class="mission-author">— Aniket Singh Lodhi</span>
+        </div>
+      </section>
+
+      <!-- ==================== CONTACT ==================== -->
       <section id="contact" class="section reveal">
         <div class="section-header">
-          <h2>Contact</h2>
-          <p>Open to collaborations in Web3, analytics, and security.</p>
+          <span class="section-tag">// contact</span>
+          <h2>Let's Build Something</h2>
+          <p>
+            Open to collaborations, open-source contributions, blockchain projects,
+            and full-stack engineering opportunities.
+          </p>
         </div>
         <div class="contact-grid">
           <a class="contact-card" href="mailto:aniketlodhi@icloud.com">
-            <span>Email</span>
+            <span class="contact-label">Email</span>
             <strong>aniketlodhi@icloud.com</strong>
+            <span class="contact-arrow">&#x2192;</span>
           </a>
           <a class="contact-card" href="https://github.com/aniketsinghlodhi" target="_blank" rel="noreferrer">
-            <span>GitHub</span>
+            <span class="contact-label">GitHub</span>
             <strong>@aniketsinghlodhi</strong>
+            <span class="contact-arrow">&#x2192;</span>
           </a>
           <a
             class="contact-card"
@@ -343,16 +522,40 @@
             target="_blank"
             rel="noreferrer"
           >
-            <span>LinkedIn</span>
+            <span class="contact-label">LinkedIn</span>
             <strong>/in/aniketsinghlodhi</strong>
+            <span class="contact-arrow">&#x2192;</span>
+          </a>
+          <a
+            class="contact-card"
+            href="https://twitter.com/AniketS6069487"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span class="contact-label">X (Twitter)</span>
+            <strong>@AniketS6069487</strong>
+            <span class="contact-arrow">&#x2192;</span>
+          </a>
+        </div>
+        <div class="contact-cta">
+          <a class="btn primary btn-large" href="mailto:aniketlodhi@icloud.com">
+            <span>Send Me a Message</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path fill="currentColor" d="M5 12h14m-7-7 7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
           </a>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>Designed and built by Aniket Singh Lodhi. Futuristic Web3 Portfolio.</p>
-      <p>© <span id="year"></span> All rights reserved.</p>
+      <div class="footer-content">
+        <p class="footer-identity">
+          Designed &amp; engineered by <strong>Aniket Singh Lodhi</strong>
+        </p>
+        <p class="footer-tagline">Full-Stack Developer &middot; Blockchain Engineer &middot; IIT Patna</p>
+        <p class="footer-copy">&copy; <span id="year"></span> All rights reserved.</p>
+      </div>
     </footer>
 
     <script src="js/main.js" defer></script>
